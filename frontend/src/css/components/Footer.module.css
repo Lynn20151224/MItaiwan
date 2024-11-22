@@ -1,0 +1,114 @@
+.footer {
+    background-color: #79C3E0;
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerLogo img {
+    height: 100px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcon img {
+    width: 40px;
+    height: 40px;
+}
+
+.footerNav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-columns: repeat(1, 2fr) repeat(5, 5fr); */
+    /* gap: 10px; */
+    margin-bottom: 40px;
+}
+
+.footerColumn {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.footerColumn h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.footerColumn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerColumn ul li {
+    margin-bottom: 10px;
+}
+
+.footerColumn ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footerColumn ul li a:hover {
+    text-decoration: underline;
+}
+
+.footerContact {
+    text-align: ledt;
+}
+
+.languageSelect select {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.contactInfo p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.contactIcon {
+    width: 16px;
+    color: white;
+}
+
+.footerBottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .footerNav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerContact {
+        grid-column: span 2;
+        text-align: left;
+    }
+}

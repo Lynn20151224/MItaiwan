@@ -1,0 +1,132 @@
+.loginPage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.loginContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.imageGrid {
+    height: 100%;
+    background-image: url('/path-to-your-grid-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.formSection {
+    padding: 40px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.logoSection {
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #79c3e0;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.link {
+    color: #79C3E0;
+    text-decoration: none;
+}
+
+.signUpButton {
+    width: 100%;
+    padding: 12px;
+    background: #79C3E0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.signUpButton:hover {
+    background: #5ba9c9;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    background: white;
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.googleButton {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.googleButton:hover {
+    background: #f5f5f5;
+}
+
+.terms {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.terms a {
+    color: #79C3E0;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
